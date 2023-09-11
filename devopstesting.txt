@@ -1,0 +1,31 @@
+Q1. What is DevOps?
+Q2. How do you define the role of a DevOps engineer?
+Q3. How does DevOps differ from traditional software development methodologies?
+Q4. How does HTTP work?
+Q5. In terms of development and infrastructure, mention the core operations of DevOps.
+Q6. What are some technical and business benefits of DevOps?
+Q7. Name some of the most important DevOps tools.
+Q8. What are the core principles of DevOps?
+Q9. How do you measure the success of DevOps implementation?
+Q10. What is CI? What is its purpose?5. In terms of development and infrastructure, mention the core operations of DevOps.
+The core operations of DevOps include:
+
+Development
+Version Control
+Testing
+Integration
+Deployment
+Delivery
+Configuration
+Monitoring
+FeedbackThis is a list of the most important DevOps Tools being used:
+
+Git
+Maven
+Selenium
+Jenkins
+Docker
+Puppet
+Chef
+Ansible
+Nagios
