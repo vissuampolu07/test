@@ -1,0 +1,18 @@
+git pull runs git fetch with the given parameters and then depending on configuration options or command line flags, will call either git rebase or git merge to reconcile diverging branches.
+An updated image with git clone and git merge would be very helpful! – 
+MEMark
+ Sep 8, 2015 at 14:23
+24
+Yes, please add git merge - it should clearly show that merge called separately is NOT the same as calling pull because pull is merging from remote only and ignores your local commits in your local branch which is tracking the remote branch being pulled from. – 
+JustAMartin
+ Oct 21, 2015 at 19:57
+16
+A picture is worth a thousand words! Is the updated image with clone and merge data flow ready somewhere? Any other data flow besides what's already in the diagram? – 
+shikhanshu
+ Nov 25, 2015 at 0:27
+@JustAMartin That's just plain wrong. A pull doesn't ignore anything that a merge wouldn't. A pull is fetch + merge, nothing more, nothing less. – 
+Gerard van Helden
+ Apr 13 at 13:27
+@GerardvanHelden That's true if you pull into the same branch that corresponds to the origin branch. However, if you pull from the origin into a different local branch (not the one that corresponds to the origin), then that other inactive local branch will not be updated. Git does not care that you have another branch connected to the same remote branch, it only cares about the currently checked-out branch you are pulling into. – 
+JustAMartin
+ Apr 14 at 14:13 
